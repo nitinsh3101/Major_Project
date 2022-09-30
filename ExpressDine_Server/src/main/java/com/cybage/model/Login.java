@@ -1,0 +1,83 @@
+package com.cybage.model;
+
+public class Login {
+
+	private int id;
+	private String email;
+	private String password;
+	private int attempts;
+
+	private int userId;
+
+	public Login(int id, String email, String password, int attempts, int userId) {
+		super();
+		this.id = id;
+		this.email = email;
+		this.password = password;
+		this.attempts = attempts;
+
+		this.userId = userId;
+	}
+
+	public Login(String email, String password, int attempts, boolean isLocked, int userId) {
+		super();
+		this.email = email;
+		this.password = password;
+		this.attempts = attempts;
+
+		this.userId = userId;
+	}
+
+	public Login() {
+		super();
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public int getAttempts() {
+		return attempts;
+	}
+
+	public void setAttempts(int attempts) {
+		this.attempts = attempts;
+	}
+
+
+
+	public int getUserId() {
+		return userId;
+	}
+
+	public void setUserId(int userId) {
+		this.userId = userId;
+	}
+
+	@Override
+	public String toString() {
+		return "Login [id=" + id + ", email=" + email + ", password=" + password + ", attempts=" + attempts
+				+ ", userId=" + userId + "]";
+	}
+
+}

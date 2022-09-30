@@ -1,0 +1,8 @@
+.card-body{
+    height: 330px;
+}
+@media print{
+    button {
+        display: none;
+    }
+}

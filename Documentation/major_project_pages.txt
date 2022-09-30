@@ -1,0 +1,44 @@
+homepage
+about us
+contact us 
+feedback
+login
+registration
+change password
+
+User - 
+	view restaurant
+	view menu/food
+	view cart
+	view orders
+	add complaint
+	view complaint status
+	add feedback
+	view favourite food
+	view favourite restaurant
+	edit profile
+
+Admin - 
+	dashboard
+	add new rest owner
+	view rest owners
+	add restaurant
+	view restaurants
+	view locked accounts
+	view reports - user, food, restaurant
+	view logs of user activity
+
+Rest owner - 
+	dashboard
+	add new food
+	view foods
+	add/edit offer
+	view pending orders
+	view/update order status	
+	view complaints
+	check complaints
+	view order history
+	check rating and feedback
+	
+
+

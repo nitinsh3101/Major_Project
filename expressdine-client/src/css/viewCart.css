@@ -1,0 +1,11 @@
+.form1{
+    width:100px;
+}
+.design{
+    display: flex;
+}
+@media print{
+    button {
+        display: none;
+    }
+}

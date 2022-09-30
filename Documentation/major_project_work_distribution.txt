@@ -1,0 +1,37 @@
+Major Project work distribution - 
+
+Shubham Mane
+	- Login, registration
+	- feedback
+	- Manage cart and orders
+	(admin)
+	- Send account details to restaurant owner through email
+	(user role)
+	-Can raise complaint and check the status of complaint.
+	-Send reminder if complain is not resolved on time.
+	(restaurant owner)
+	-Should get notification for new Order through SMS and e-mail.
+	
+Shubham Chavan
+	(admin role)
+	- Add/delete/update/view restaurant
+	- Create login credentials for Restaurant owner.
+	-Can see logs of user’s activity
+	(user role)
+	-search and view restaurant and food items.
+	-Rate the order .	
+
+Shubham Gadhave
+	(restaurant owner)
+	- food category and food items crud
+	- Add/delete/update/view offers. 
+	- View the complains and can take the action.
+	- Can access order history and can check rating and feedback.
+	(admin role)
+	-Reports:- Users reports, Food Items reports, Restaurant report
+
+Shubham Bachkar
+	(user role)
+	-Can add food item/restaurant to favorites list.
+	-Change password
+	-Update profile information.

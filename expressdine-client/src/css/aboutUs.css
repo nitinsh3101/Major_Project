@@ -1,0 +1,148 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+  }
+
+  h2{
+	text-align:center	
+}
+  
+  html {
+	box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+	box-sizing: inherit;
+  }
+  
+  .column {
+	float: left;
+	width: 50%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+  }
+  
+  .card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 8px;
+	width: 25%;
+  }
+  
+  .about-section {
+	padding: 50px;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	display: grid;
+	background-color: #4158D0;
+	background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+	align-content: center;
+	min-height: 50vh;
+}
+
+section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	min-height: 50vh;
+	width: 75vw;
+	margin: 0 auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+	border-radius: 12px;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+/* .image {
+ 	background: url('../img/background.jpg');
+	background-color: #12192c;
+	display: flex;
+	border-radius: 12px 0 0 12px;
+}
+
+.image img {
+	height: 50vh;
+	margin: 50px auto
+} */
+
+/* .img pic1{
+	border-radius: 50%;
+} */
+
+
+.content {
+	background-color: #12192c;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 0 12px 12px 0;
+	color: #fff;
+}
+
+.content h2 {
+	text-transform: uppercase;
+	font-size: 36px;
+	letter-spacing: 6px;
+	opacity: 0.9;
+}
+
+.content span {
+	height: 0.5px;
+	width: 80px;
+	background: #777;
+	margin: 30px 0;
+}
+
+.content p {
+	padding-bottom: 15px;
+	font-weight: 300;
+	opacity: 0.7;
+	width: 60%;
+	text-align: center;
+	background-color: #474e5d;
+	color: white;
+  }
+  
+  .container {
+	padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
+  .title {
+	color: grey;
+  }
+  .row{
+	  width: 100%;
+  }
+  
+  .button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+  }
+  
+  .button:hover {
+	background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+	.column {
+	  width: 100%;
+	  display:block;
+	}
+	img {
+		border-radius: 50%;
+	  }
+	
+  }
